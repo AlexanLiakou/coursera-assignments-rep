@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+#row{
+	width:100%;
+}
+h1{
+	margin-bottom:20px;
+	font-family:Berlin Sans;
+	font-size:190%;
+	text-align:center;	
+}
+#ptitle1{
+	float:right;
+	padding-left:20px;
+	padding-right:20px;
+	background-color: red;
+	display: inline;
+	font-size:140%;
+	font-weight: bold;
+	font-family:Berlin Sans;
+	border: 1px solid black;
+	border-top:hidden;
+	border-right:hidden;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+#ptitle2{
+	float:right;
+	padding-left:20px;
+	padding-right:20px;
+	background-color: yellow;
+	display: inline;
+	font-size:140%;
+	font-weight:bold;
+	font-family:Berlin Sans;
+	border: 1px solid black;
+	border-top:hidden;
+	border-right:hidden;
+	margin-top:0px;
+	margin-bottom:5px;	
+}
+#ptitle3{
+	float:right;
+	padding-left:20px;
+	padding-right:20px;
+	background-color: green;
+	display: inline;
+	font-size:140%;
+	font-weight: bold;
+	font-family:Berlin Sans;
+	border: 1px solid black;
+	border-top:hidden;
+	border-right:hidden;
+	margin-top: 0px;
+	margin-bottom:5px;
+}
+.p{
+	padding-right:5px;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	font-family:Berlin Sans;
+	color:#ffc0cb;
+	clear:right;
+}
+#menusection1,#menusection2,#menusection3{
+}
+@media (min-width: 992px){
+	#menusection1,#menusection2,#menusection3{
+		background-color:#808080;
+		border:1px solid black;
+		margin-left:10px;
+		float:left;
+	}
+	#menusection1{
+		width:32%
+	}
+	#menusection2{
+		width:32%;
+	}
+	#menusection3{
+		width:32%;
+	}
+}
+@media (max-width: 991px){
+	#menusection1,#menusection2,#menusection3{
+		background-color:#808080;
+		border:1px solid black;
+		margin-bottom:15px;
+		float:left;
+	}
+	#menusection1{
+		width:49%;
+		margin-right:10px;
+	}
+	#menusection2{
+		width:49%;		
+	}
+	#menusection3{
+		width:99.2%;
+	}
+}
+@media (max-width:767px){
+	#menusection1,#menusection2,#menusection3{
+		background-color:#808080;
+		border:1px solid black;
+		margin-bottom:10px;
+		float:left;
+	}
+	#menusection1{
+		width:100%
+	}
+	#menusection2{
+		width:100%;
+	}
+	#menusection3{
+		width:100%;
+	}
+}
